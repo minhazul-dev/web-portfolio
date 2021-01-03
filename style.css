@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 h1{
     font-size:40px;
     font-family: 'Roboto Slab', serif;
@@ -8,8 +11,15 @@ h1{
 .half-width{
     width:40%;
     float: left;
-    margin-left:5%;
+    margin-left:6%;
 }
 .half-width img{
     width:80%
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
